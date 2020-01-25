@@ -1,0 +1,25 @@
+package com.bridgelabz.automation;
+
+import java.util.Date;
+
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ScreenShot {
+	public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver","/home/admin1/Downloads/chromedriver_linux64/chromedriver");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.facebook.com");
+		Date date=new Date();
+		String d=date.toString();
+		System.out.println("today's date="+d);
+		String date2=d.replaceAll(":", "_");
+		System.out.println("edited date="+date2);
+		
+		TakesScreenshot ts=(TakesScreenshot) driver;
+		
+	}
+
+}
