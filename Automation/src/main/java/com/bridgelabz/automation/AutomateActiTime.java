@@ -21,6 +21,7 @@ public class AutomateActiTime {
 		password.sendKeys("manager");
 		WebElement link=driver.findElement(By.linkText("Click ActiTIME Link"));
 		link.click();
+		Thread.sleep(5000);
+		driver.close();
 	}
-
 }
