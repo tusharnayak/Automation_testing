@@ -1,0 +1,20 @@
+package com.bridgelabz.javascriptexecutor;
+
+import java.awt.Window;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ScrollDownAndScrollUp {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "/home/admin1/Downloads/chromedriver_linux64/chromedriver");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://selenium.dev/");
+		JavascriptExecutor jse=(JavascriptExecutor) driver;
+		for(int i=0;i<10;i++) {
+			jse.executeScript("window.scrollBy(0,1000)");
+		}
+	}
+
+}
