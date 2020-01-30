@@ -19,6 +19,6 @@ public class ScrollDownBottomOfPage {
 		jse.executeScript("window.scrollBy(372,5852)");
 		Thread.sleep(3000);
 		jse.executeScript("window.scrollBy(-372,-5852)");
-
+		
 	}
 }

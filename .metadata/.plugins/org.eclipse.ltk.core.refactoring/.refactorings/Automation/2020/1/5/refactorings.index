@@ -1,2 +1,7 @@
 1580194857001	Rename local variable 'password'
 1580207162932	Delete element
+1580359045567	Rename type 'HandlingFrames'
+1580359350887	Delete element
+1580359377607	Rename type 'HandlingFramesUsingIndex'
+1580364051438	Rename package 'com.bridgelabz.handlingframes'
+1580390636450	Delete element

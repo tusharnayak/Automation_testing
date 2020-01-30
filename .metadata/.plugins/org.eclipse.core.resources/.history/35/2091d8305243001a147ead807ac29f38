@@ -1,0 +1,13 @@
+package com.bridgelabz.popuphandling;
+
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class HiddenDividsionPopUp {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "/home/admin1/Downloads/chromedriver_linux64/chromedriver");
+		ChromeOptions options=new ChromeOptions();
+		options.addArguments("--disable-notifications");
+		options.addArguments("--disable-geolocation");
+		option.addArguments("--ignore-certificate-errors");
+	}
+}
