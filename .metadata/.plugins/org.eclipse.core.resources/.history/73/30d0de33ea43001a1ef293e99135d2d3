@@ -1,0 +1,45 @@
+package com.datadriven.test;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.excel.utility.XlsReader;
+
+public class DataDrivenTest {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		XlsReader reader = new XlsReader(
+				"/home/admin1/Desktop/Automation/Automation/src/main/java/com/test/data/ebayTestData.xlsx");
+		String firstName = reader.getCellData("RegdTestData", "firstName", 2);
+		System.out.println(firstName);
+		String lastName = reader.getCellData("RegdTestData", "lastName", 2);
+		System.out.println(lastName);
+
+		String email = reader.getCellData("RegdTestData", "email", 2);
+		System.out.println(email);
+
+		String password = reader.getCellData("RegdTestData", "password", 2);
+		System.out.println(password);
+
+		System.setProperty("webdriver.chrome.driver", "/home/admin1/Downloads/chromedriver_linux64/chromedriver");
+		WebDriver driver = new ChromeDriver();
+		driver.get(
+				"https://reg.ebay.com/reg/PartialReg?siteid=0&co_partnerId=0&UsingSSL=1&rv4=1&pageType=2510217&ru=https%3A%2F%2Fcart.ebay.com%2Fsc%2Fview&signInUrl=https%3A%2F%2Fwww.ebay.com%2Fsignin%3Fsgn%3Dreg%26siteid%3D0%26co_partnerId%3D0%26UsingSSL%3D1%26rv4%3D1%26pageType%3D2510217%26ru%3Dhttps%253A%252F%252Fcart.ebay.com%252Fsc%252Fview");
+		driver.findElement(By.xpath("//input[@id='firstname']")).sendKeys(firstName);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@id='lastname']")).sendKeys(lastName);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@id='email']")).sendKeys(email);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//input[@id='PASSWORD']")).sendKeys(password);
+		Thread.sleep(2000);
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="yahoo app test automation suite" duration-ms="10342" started-at="2020-01-31T17:16:38 IST" finished-at="2020-01-31T17:16:48 IST">
+    <groups>
+    </groups>
+    <test name="Yahoo App Test" duration-ms="10342" started-at="2020-01-31T17:16:38 IST" finished-at="2020-01-31T17:16:48 IST">
+      <class name="com.parameters.ParameterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.parameters.ParameterTest@10bbd20a]" name="setUp" is-config="true" duration-ms="1304" started-at="2020-01-31T17:16:38 IST" finished-at="2020-01-31T17:16:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="yahooLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parameters.ParameterTest@10bbd20a]" name="yahooLoginTest" duration-ms="8891" started-at="2020-01-31T17:16:39 IST" finished-at="2020-01-31T17:16:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://login.yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.parameters.ParameterTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="117" started-at="2020-01-31T17:16:48 IST" finished-at="2020-01-31T17:16:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parameters.ParameterTest -->
+    </test> <!-- Yahoo App Test -->
+  </suite> <!-- yahoo app test automation suite -->
+</testng-results>

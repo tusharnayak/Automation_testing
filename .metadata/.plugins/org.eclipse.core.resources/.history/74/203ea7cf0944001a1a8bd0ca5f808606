@@ -1,0 +1,14 @@
+package com.test.utility;
+
+import java.util.ArrayList;
+
+import com.excel.utility.XlsReader;
+
+public class TestUtil {
+	ArrayList<Object[]>myData=new ArrayList<Object[]>();
+
+	static XlsReader reader;
+	
+	reader=new 
+
+}

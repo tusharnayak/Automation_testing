@@ -1,0 +1,13 @@
+package com.datadriven.test;
+
+import org.openqa.selenium.WebDriver;
+
+public class HalfEbdayTest {
+
+	WebDriver driver;
+	
+	public void setUp() {
+
+	}
+
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Automation"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.bridgelabz.javascriptexecutor.ScrollDownAndScrollUp"/>
+<listEntry value="com.bridgelabz.automation.XpathActiPath"/>
+<listEntry value="com.bridgelabz.popuphandling.AlertBoxPopUp"/>
+<listEntry value="com.bridgelabz.automation.Navigate"/>
+<listEntry value="com.bridgelabz.popuphandling.PrintWindowHandle"/>
+<listEntry value="com.datadriven.test.HalfEbdayTest"/>
+<listEntry value="com.bridgelabz.automation.ScreenShot"/>
+<listEntry value="com.bridgelabz.automation.DimensionEqualOrNot"/>
+<listEntry value="com.bridgelabz.handlingframesAndActionClass.ActimindAutomateScenario2"/>
+<listEntry value="com.bridgelabz.handlingframesAndActionClass.MoveToElement"/>
+<listEntry value="com.bridgelabz.popuphandling.FileUploadPopUp"/>
+<listEntry value="com.bridgelabz.automation.CheckForUserFieldAndMobileNumberField"/>
+<listEntry value="com.bridgelabz.automation.DriverMethod"/>
+<listEntry value="com.bridgelabz.automation.ToolTipText"/>
+<listEntry value="com.bridgelabz.javascriptexecutor.ScrollDownToASpecificElement"/>
+<listEntry value="com.bridgelabz.popuphandling.PromptBoxPopup"/>
+<listEntry value="com.bridgelabz.popuphandling.ConfirmBoxPopup"/>
+<listEntry value="com.bridgelabz.handlingframesAndActionClass.DragAndDropPractice"/>
+<listEntry value="com.bridgelabz.handlingframesAndActionClass.ActionClass"/>
+<listEntry value="com.bridgelabz.handlingframesAndActionClass.HandlingFrames"/>
+<listEntry value="com.bridgelabz.javascriptexecutor.ScrollDownBottomOfPage"/>
+<listEntry value="com.bridgelabz.automation.CssSelector"/>
+<listEntry value="com.bridgelabz.popuphandling.HiddenDividsionPopUp"/>
+<listEntry value="com.bridgelabz.automation.PageDisplayed"/>
+<listEntry value="com.excel.utility.XlsReader"/>
+<listEntry value="com.datadriven.test.DataDrivenTest"/>
+<listEntry value="com.bridgelabz.automation.IsSelectedMethod"/>
+<listEntry value="com.bridgelabz.automation.VerifyErrorMessageAndColor"/>
+<listEntry value="com.bridgelabz.javascriptexecutor.TestHiddenValue"/>
+<listEntry value="com.bridgelabz.automation.FocusedElement"/>
+<listEntry value="com.datadriven.test.ExcelOperations"/>
+<listEntry value="com.bridgelabz.handlingframesAndActionClass.ActiMindAutomate"/>
+<listEntry value="com.bridgelabz.automation.ClearDataOnWebPage"/>
+<listEntry value="com.bridgelabz.handlingframesAndActionClass.DragAndDrop"/>
+<listEntry value="com.bridgelabz.automation.DynamicValueIdentify"/>
+<listEntry value="com.bridgelabz.automation.KeyBoardAndMouseOperation"/>
+<listEntry value="com.bridgelabz.automation.AutomateActiTime"/>
+<listEntry value="com.datadriven.test.ParameterizeTest"/>
+<listEntry value="com.bridgelabz.handlingframesAndActionClass.DragAndDropCondition"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>
