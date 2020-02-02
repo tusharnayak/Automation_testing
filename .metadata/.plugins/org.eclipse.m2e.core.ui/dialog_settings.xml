@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/admin1/Desktop/Automation/KeyWordDrivenFaceBook"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,13 +26,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.bridgelabz.automation"/>
+			<item value="FreeCRMAutomationTest.FreeCRMAutomation"/>
 		</list>
 		<list key="groupId">
-			<item value="Automation"/>
+			<item value="FreeCRMAutomationTest"/>
 		</list>
 		<list key="artifactId">
-			<item value="com.bridgelabz.automation"/>
+			<item value="FreeCRMAutomation"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
