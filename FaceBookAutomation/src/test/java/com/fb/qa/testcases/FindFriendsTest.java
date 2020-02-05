@@ -11,9 +11,9 @@ import com.fb.qa.pages.HomePage;
 import com.fb.qa.pages.LoginPage;
 
 public class FindFriendsTest extends TestBase{
-	public LoginPage loginPage;
-	public HomePage homePage;
-	public FindFriends findFriend;
+	 LoginPage loginPage;
+	 HomePage homePage;
+	 FindFriends findFriend;
 	
 	
 	
@@ -31,7 +31,7 @@ public class FindFriendsTest extends TestBase{
 	
 	@Test
 	public void findFriendPageLabelTest() {
-		Assert.assertTrue(findFriend.verifyFindFriendsLabel(),"people you may know label is missing");
+		Assert.assertTrue(findFriend.verifyFindFriendsLabel());
 	}
 	
 	

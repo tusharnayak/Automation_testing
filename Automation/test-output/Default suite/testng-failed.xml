@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.parameters.ParameterTest">
+      <class name="com.datadriven.test.HalfEbdayTest">
         <methods>
-          <include name="yahooLoginTest"/>
+          <include name="halfEbayTest" invocation-numbers="5"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.parameters.ParameterTest -->
+      </class> <!-- com.datadriven.test.HalfEbdayTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

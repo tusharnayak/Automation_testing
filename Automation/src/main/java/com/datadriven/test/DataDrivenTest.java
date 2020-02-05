@@ -21,7 +21,7 @@ public class DataDrivenTest {
 		String password = reader.getCellData("RegdTestData", "password", 2);
 		System.out.println(password);
 		
-		//Webdriver code
+		//Web driver code
 		System.setProperty("webdriver.chrome.driver", "/home/admin1/Downloads/chromedriver_linux64/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

@@ -19,7 +19,7 @@ public class HomePageTest extends TestBase {
 	public MessagePage message;
 	public FindFriends findFriends=new FindFriends();
 
-	public HomePageTest() {
+	public HomePageTest()  {
 		super();
 	}
 
@@ -44,8 +44,6 @@ public class HomePageTest extends TestBase {
 	public void messagePageTest() {
 		message=homePage.message();
 	}
-	
-	
 	
 	@AfterMethod
 	public void tearDown() {

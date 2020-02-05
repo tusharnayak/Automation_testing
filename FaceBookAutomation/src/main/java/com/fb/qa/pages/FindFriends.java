@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.fb.qa.base.TestBase;
 
 public class FindFriends extends TestBase{
+	
+	
 	@FindBy(xpath = "//h2[contains(text(),'People you may know')]")
 	WebElement friends;
 	
@@ -17,6 +19,7 @@ public class FindFriends extends TestBase{
 	
 	public FindFriends() {
 		PageFactory.initElements(driver, this);
+	
 	}
 	
 	public boolean verifyFindFriendsLabel() {

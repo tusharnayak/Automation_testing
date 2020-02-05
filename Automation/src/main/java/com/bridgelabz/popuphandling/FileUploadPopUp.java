@@ -10,7 +10,7 @@ public class FileUploadPopUp {
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://html.com/input-type-file/");
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//input[@id='fileupload']")).sendKeys("/home/admin1/Desktop/file.html");
+		driver.findElement(By.xpath("//input[@id='fileupload']")).sendKeys("/home/admin1/Desktop/File.html");
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//input[2]")).click();
 	}

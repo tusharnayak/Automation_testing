@@ -5,9 +5,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import atu.testrecorder.ATUTestRecorder;
+import atu.testrecorder.exceptions.ATUTestRecorderException;
+
 public class AutomateActiTime {
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException, ATUTestRecorderException {
+		ATUTestRecorder recorder;
 		System.setProperty("webdriver.chrome.driver", "/home/admin1/Downloads/chromedriver_linux64/chromedriver");
+		
+		recorder=new ATUTestRecorder("/home/admin1/Desktop/Recording", "actiTimeRecorder", false);
+		recorder.start();
+		
 		WebDriver driver=new ChromeDriver();
 		driver.get("file:///home/admin1/Desktop/File.html");
 		Thread.sleep(2000);
@@ -23,5 +31,6 @@ public class AutomateActiTime {
 		link.click();
 		Thread.sleep(5000);
 		driver.close();
+		recorder.stop();
 	}
 }

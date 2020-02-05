@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/admin1/Desktop/Automation/FaceBookAutomation"/>
 			<item value="/home/admin1/Desktop/Automation/KeyWordDrivenFaceBook"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,13 +27,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="FreeCRMAutomationTest.FreeCRMAutomation"/>
+			<item value="JSONProject.JSONProject"/>
 		</list>
 		<list key="groupId">
-			<item value="FreeCRMAutomationTest"/>
+			<item value="JSONProject"/>
 		</list>
 		<list key="artifactId">
-			<item value="FreeCRMAutomation"/>
+			<item value="JSONProject"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

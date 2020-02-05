@@ -19,6 +19,7 @@ public class HalfEbdayTest {
 	
 	@BeforeMethod
 	public void setUp() {
+		
 		System.setProperty("webdriver.chrome.driver", "/home/admin1/Downloads/chromedriver_linux64/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39667" started-at="2020-02-05T14:48:24 IST" finished-at="2020-02-05T14:49:03 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39667" started-at="2020-02-05T14:48:24 IST" finished-at="2020-02-05T14:49:03 IST">
+      <class name="com.json.qa.main.DDTestUsingJson">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.json.qa.main.DDTestUsingJson@7a1ebcd8]" name="setup" is-config="true" duration-ms="6714" started-at="2020-02-05T14:48:24 IST" finished-at="2020-02-05T14:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.json.qa.main.DDTestUsingJson@7a1ebcd8]" name="login" duration-ms="8142" started-at="2020-02-05T14:48:31 IST" data-provider="dp" finished-at="2020-02-05T14:48:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8109555221,testdata@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.json.qa.main.DDTestUsingJson@7a1ebcd8]" name="login" duration-ms="12295" started-at="2020-02-05T14:48:39 IST" data-provider="dp" finished-at="2020-02-05T14:48:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohitk@gmail.com,rohit@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:com.json.qa.main.DDTestUsingJson@7a1ebcd8]" name="login" duration-ms="12279" started-at="2020-02-05T14:48:51 IST" data-provider="dp" finished-at="2020-02-05T14:49:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swetha86@gmail.com,shwe@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.json.qa.main.DDTestUsingJson@7a1ebcd8]" name="tearDown" is-config="true" duration-ms="70" started-at="2020-02-05T14:49:03 IST" finished-at="2020-02-05T14:49:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.json.qa.main.DDTestUsingJson -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

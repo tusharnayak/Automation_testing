@@ -15,10 +15,11 @@ public class HomePage extends TestBase{
 	@FindBy(xpath = "//a[@id='findFriendsNav']")
 	WebElement findFriends;
 	
-	@FindBy(xpath = "//div[contains(text(),'Messenger')]")
-	WebElement message;
+	@FindBy(xpath = "//div[@id='leftCol']")
+	WebElement messageIcon;
 	
-	
+	@FindBy(xpath = "//div[contains(text(),'Marketplace')]")
+	WebElement marketIcon;
 	
 	
 	public HomePage() {
@@ -35,8 +36,31 @@ public class HomePage extends TestBase{
 		 return new FindFriends();
 	}
 	public MessagePage message() {
-		message.click();
+		messageIcon.click();
 		return new MessagePage();
+	}
+	
+	public MarketPlace homePageMarketPlace() {
+		marketIcon.click();
+		return new MarketPlace();
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

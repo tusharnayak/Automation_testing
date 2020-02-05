@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fb.qa.testcases.MessagePageTest">
+      <class name="com.fb.qa.testcases.FindFriendsTest">
         <methods>
-          <include name="messengerClickTest"/>
-          <include name="setUp"/>
+          <include name="findFriendPageLabelTest"/>
           <include name="tearDown"/>
-          <include name="messengerTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.fb.qa.testcases.MessagePageTest -->
+      </class> <!-- com.fb.qa.testcases.FindFriendsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

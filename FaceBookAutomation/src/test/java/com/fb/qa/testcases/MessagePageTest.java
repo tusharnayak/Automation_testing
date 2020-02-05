@@ -25,16 +25,18 @@ public class MessagePageTest extends TestBase {
 		initialization();
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+		messagePageTest=new MessagePage();
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 2)
 	public void messengerTest() {
+		messengerClickTest();
 		String messageTitle = messagePageTest.verifyMessengerTitle();
 		Assert.assertEquals(messageTitle, "Messenger");
 	}
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void messengerClickTest() {
-		messagePageTest.messengerClick();
+		homePage.message();
 	}
 	
 	

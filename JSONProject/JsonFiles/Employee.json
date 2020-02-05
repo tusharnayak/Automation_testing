@@ -1,0 +1,18 @@
+{
+	"firstName": "Tushar",
+	"lastName": "Nayak",
+	"address": [
+		{
+			"cross": "26th cross",
+			"lane": "9th main",
+			"city": "bangalore",
+			"state": "karnataka"
+		},
+		{
+			"cross": "qwerr jhhg",
+			"lane": "98jhgbf",
+			"city": "mumbai",
+			"state": "maharashtra"
+		}
+	]
+}

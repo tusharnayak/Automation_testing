@@ -1,6 +1,8 @@
 package com.fb.qa.base;
 
 import java.io.File;
+
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -17,7 +19,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.fb.qa.util.TestUtil;
-
 public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
@@ -35,9 +36,11 @@ public class TestBase {
 			e.printStackTrace();
 		}
 	}
+	
 	public void initialization() {
 		String browserName=prop.getProperty("browser");
 		if(browserName.equals("chrome")) {
+			//WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.driver", "/home/admin1/Downloads/chromedriver_linux64/chromedriver");
 			ChromeOptions option = new ChromeOptions();
 			option.addArguments("--disable-notifications");
@@ -68,6 +71,11 @@ public class TestBase {
 	File destFile = new File("/home/admin1/Desktop/Automation/FaceBookAutomation/Screenshot/"+date3+"FailedTest.png");
 	FileUtils.copyFile(srcFile, destFile);
 	}
+	
+	
+	
+	
+	
 	
 	
 

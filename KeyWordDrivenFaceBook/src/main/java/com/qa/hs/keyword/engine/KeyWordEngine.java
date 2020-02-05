@@ -22,7 +22,7 @@ public class KeyWordEngine extends Base{
 	public static Sheet sheet;
 	public Base base;
 
-	public final String SCENARIO_SHEET_PATH = "/home/admin1/Desktop/Automation/KeyWordDrivenHobSpot/src/main/java/com/qa/hs/keyword/scenario/keyWord.xlsx";
+	public final String SCENARIO_SHEET_PATH = "/home/admin1/Desktop/Automation/KeyWordDrivenFaceBook/src/main/java/com/qa/hs/keyword/scenario/keyWord.xlsx";
 
 	public void startExecution(String sheetName) {
 		String locatorName = null;
@@ -71,7 +71,7 @@ public class KeyWordEngine extends Base{
 
 					
 					if (value.isEmpty() || value.equals("NA")) {
-						driver = base.init_driver("browser");
+						driver = base.init_driver(prop.getProperty("browser"));
 					} else {
 						driver = base.init_driver(value);
 					}

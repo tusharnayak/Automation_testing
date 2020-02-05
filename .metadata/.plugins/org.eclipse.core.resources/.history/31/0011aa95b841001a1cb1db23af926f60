@@ -1,9 +1,0 @@
-package com.bridgelabz.automation;
-
-public class JavaScriptExecutor {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

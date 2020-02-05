@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [facebook application automation test]">
   <test thread-count="5" name="facebook test cases(failed)">
     <classes>
-      <class name="com.fb.qa.testcases.HomePageTest">
+      <class name="com.fb.qa.testcases.FindFriendsTest">
         <methods>
-          <include name="messagePageTest"/>
-          <include name="findFriendsTest"/>
+          <include name="findFriendPageLabelTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.fb.qa.testcases.HomePageTest -->
+      </class> <!-- com.fb.qa.testcases.FindFriendsTest -->
     </classes>
   </test> <!-- facebook test cases(failed) -->
 </suite> <!-- Failed suite [facebook application automation test] -->
