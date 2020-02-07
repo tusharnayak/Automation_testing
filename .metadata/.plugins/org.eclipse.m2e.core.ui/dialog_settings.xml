@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/admin1/Desktop/Automation/Automation/src/main/java/com/bridgelabz/automation/AutomateActiTime.java"/>
 			<item value="/home/admin1/Desktop/Automation/FaceBookAutomation"/>
 			<item value="/home/admin1/Desktop/Automation/KeyWordDrivenFaceBook"/>
 		</list>
@@ -27,12 +28,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ApiTestingRestAssured.ApiTestingRestAssured"/>
+			<item value="PDFReader.PDFReader"/>
 			<item value="JSONProject.JSONProject"/>
 		</list>
 		<list key="groupId">
+			<item value="ApiTestingRestAssured"/>
+			<item value="PDFReader"/>
 			<item value="JSONProject"/>
 		</list>
 		<list key="artifactId">
+			<item value="ApiTestingRestAssured"/>
+			<item value="PDFReader"/>
 			<item value="JSONProject"/>
 		</list>
 		<list key="projectNameTemplate">

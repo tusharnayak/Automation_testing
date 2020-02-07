@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="/home/admin1/Downloads/poi-bin-4.1.1-20191023/poi-4.1.1/lib"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="/home/admin1/Downloads"/>
 	<item key="SearchScopeActionGroup.search_scope_type" value="1"/>
 	<item key="CallHierarchyViewPart.call_mode" value="0"/>
 	<item key="CallHierarchyViewPart.field_mode" value="2"/>
@@ -68,5 +68,11 @@
 		<item key="SearchInAppLibs" value="true"/>
 	</section>
 	<section name="CallHierarchySearchScope">
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH" value="500"/>
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT" value="380"/>
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 	</section>
 </section>

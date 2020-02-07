@@ -1,7 +1,0 @@
-package com.bridgelabz.handlingframes;
-
-public class HandlingFramesUsingIdAttribute {
-	public static void main(String[] args) {
-		
-	}
-}

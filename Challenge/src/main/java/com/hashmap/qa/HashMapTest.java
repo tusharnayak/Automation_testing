@@ -22,7 +22,6 @@ public class HashMapTest {
 	public void loginWithUserTest() throws InterruptedException {
 		String userCredentials=Hashmap.getLogininfo().get("user");
 		String adminInfo[]=userCredentials.split("_");
-		
 		driver.findElement(By.id("email")).sendKeys(adminInfo[0]);
 		driver.findElement(By.id("pass")).sendKeys(adminInfo[1]);
 		Thread.sleep(2000);
